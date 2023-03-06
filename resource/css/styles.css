@@ -81,7 +81,7 @@ html {
   text-decoration: none;
   border: 1px solid #e67e22;
   background-color: transparent;
-  transition: .5s;
+  transition: 0.4s;
 }
 
 .nav ul {
@@ -89,11 +89,12 @@ html {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  font-size: x-large;
+  font-size: large;
   font-weight: 300;
   gap: 10px;
   padding: 10px;
   padding-right: 40px;
+  text-transform: uppercase;
 }
 
 .logo a{
