@@ -10,20 +10,21 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./resource/img/icon.png">
     <link rel="stylesheet" type="text/css" href="./resource/css/styles.css" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <div class="header-box">
         <nav class="nav">
           <div class="row">
             <h1 class="logo"><a href="#">SpiceGrill</a></h1>
           </div>
           <ul>
-            <li><a href="#" class="link">Food Delivery</a></li>
-            <li><a href="#" class="link">Galleries</a></li>
-            <li><a href="#" class="link">About us</a></li>
+            <li><a href="#home" class="link">Food Delivery</a></li>
+            <li><a href="#gallery" class="link">Galleries</a></li>
+            <li><a href="#about" class="link">About us</a></li>
           </ul>
         </nav>
         <div class="header-text">
@@ -34,7 +35,7 @@
       </div>
     </header>
     <!-- Gallery Section -->
-    <section class="section1">
+    <section class="section1" id="gallery">
       <div class="row">
         <div class="card">
           <h3>Good times and great food</h3>
@@ -60,7 +61,7 @@
       </div>
     </section>
     <!-- About Section -->
-    <section class="section2">
+    <section class="section2" id="about">
       <div class="row">
         <h2 class="ourteam">Our Team</h2>
         <hr>
@@ -83,12 +84,29 @@
         <div class="OTCards">
           <img src="./resource/img/customer-3.jpg" alt="Bogart" class="OTC-image">
           <div class="OTC-details">
-            <h5 class="OTC-name">Chuy Bungot</h5>
+            <h5 class="OTC-name">Choy Bungot</h5>
             <p class="OTC-p">A down-to-earth chef with a passion for comfort food. They believe that good food should be hearty, satisfying, and above all, delicious. Their specialty is classic American cuisine, and they take great pride in creating dishes that are both nostalgic and modern. They have a talent for taking simple ingredients and turning them into something truly special.</p>
           </div>
         </div>
         <div class="clearfix"></div>
       </div>
     </section>
+    <!-- Footer -->
+    <Footer>
+      <div class="row">
+        <div class="footerdiv">
+          <p class="ft">We are dedicated to providing high-quality products and services to our customers. Don't hesitate to contact us if you have any questions or to schedule an appointment. <br> Let us help you today!</p>
+        </div>
+        <div class="footerdiv">
+          <p class="ft2">
+            ©Copyright Dius 2023. &nbsp; &nbsp;
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </p>
+        </div>
+      </div>
+    </Footer>
   </body>
 </html>
