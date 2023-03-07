@@ -243,6 +243,7 @@ footer {
   width: 45%;
   float: left;
   margin-right: 15px;
+  color: #ffffff;
 }
 
 .ft {
@@ -259,4 +260,12 @@ footer {
   font-size: 150%;
   color: #e67e22;
   text-align: center;
+}
+
+.rtbutton > a {
+  position: fixed;
+  z-index: 99;
+  bottom: 30px;
+  right: 30px;
+  color: #e67e22;
 }
