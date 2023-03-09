@@ -164,6 +164,37 @@ header {
   transition: 300ms;
 }
 
+.section2 {
+  min-height: 90vh;
+  background-color: rgb(231, 231, 231);
+
+}
+
+footer {
+  height: 10vh;
+  background-color: #1c1c1c;
+}
+
+.ourteam {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 200%;
+  color: #e67e22;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+}
+
+.OT-name {
+  color: #e67e22;
+  font-size: 120%;
+}
+
+.Ot-p {
+  font-size: 70%;
+}
+
 @media (max-width: 852px) {
   .navcon {
     background-color: #1c1c1c;
