@@ -50,7 +50,6 @@ header {
   border-radius: 8px;
 }
 
-
 .navitem:hover,
 .navitem:active {
   color: #e67e22;
@@ -98,7 +97,10 @@ header {
 
 .section1 {
   min-height: 101vh;
-  background-image: linear-gradient(rgba(220, 220, 220, 0.5), rgba(220, 220, 220, 0.5)),
+  background-image: linear-gradient(
+      rgba(220, 220, 220, 0.5),
+      rgba(220, 220, 220, 0.5)
+    ),
     url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -108,9 +110,9 @@ header {
 .cardcon {
   background-color: #ffffff;
   padding: 15px;
-  box-shadow: -1px 3px 27px -5px rgba(0,0,0,0.75);
-  -webkit-box-shadow: -1px 3px 27px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 3px 27px -5px rgba(0,0,0,0.75);
+  box-shadow: -1px 3px 27px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 3px 27px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 27px -5px rgba(0, 0, 0, 0.75);
   min-height: 620px;
 }
 
@@ -141,8 +143,6 @@ header {
   border: none;
   font-size: 90%;
 }
-
-
 
 .btn-card:link,
 .btn-card:visited {
@@ -196,7 +196,7 @@ footer {
 
 .ft {
   color: #ffffff;
-  font-size:70%;
+  font-size: 70%;
   padding: 10px;
   margin-bottom: 0;
 }
@@ -219,27 +219,48 @@ footer {
   margin-right: 10px;
 }
 
+.rtbutton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+}
+
+.rtbutton a:link,
+.rtbutton a:visited {
+  color: #e67e22;
+}
+
 @media (max-width: 852px) {
+
   .navcon {
     background-color: #1c1c1c;
   }
+
   .btn {
     font-size: 0.7rem;
   }
+
   .header-text {
     padding-top: 0;
     margin-bottom: 0;
   }
+
   .headermain {
     font-size: 1.5rem;
   }
+
   .ft2 {
     font-size: 60%;
     text-align: center;
     padding-left: 10px;
   }
-  
+
   .ft2 i {
     font-size: 80%;
+  }
+
+  .ft-container {
+    margin-top: -30px;
   }
 }
